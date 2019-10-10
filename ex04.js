@@ -1,4 +1,4 @@
-function capitalize(str='', restToLoweropt=false) {
+module.exports=function capitalize(str='', restToLoweropt=false) {
 
     if(restToLoweropt === true)
     {
@@ -12,6 +12,3 @@ function capitalize(str='', restToLoweropt=false) {
 
 }
 
-console.log(capitalize('one Code'));
-
-console.log(capitalize('One CODE', true));

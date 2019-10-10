@@ -1,4 +1,4 @@
-function countWords(str='') {
+module.exports=function countWords(str='') {
     let counter = 0
     let words
     let finish
@@ -29,9 +29,4 @@ function countWords(str='') {
     })
 
     return counter
-
 }
-
-console.log(countWords('Tony Tony Ch0pper'));
-console.log(countWords('TonyTonyCh0pper'));
-console.log(countWords('Tony Tony - Ch0pper'));

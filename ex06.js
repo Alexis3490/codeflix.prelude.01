@@ -1,4 +1,4 @@
-function kebabCase(str='') {
+module.exports=function kebabCase(str='') {
 
     let finish;
 
@@ -21,9 +21,3 @@ function kebabCase(str='') {
 
     return finish;
 }
-
-console.log(kebabCase('love one code'));
-
-console.log(kebabCase('LoveOnCode'));
-
-console.log(kebabCase('-Love-One-Code-'));

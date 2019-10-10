@@ -1,4 +1,4 @@
-function first(str='', len=1) {
+module.exports=function last(str='', len=1) {
     if (len > str.length)
     {
         return str;
@@ -8,7 +8,3 @@ function first(str='', len=1) {
         return str.substr(str.length-len);
     }
 }
-
-console.log(first('chopper'));
-console.log(first('chopper', 2));
-console.log(first('tony', 5));

@@ -1,4 +1,4 @@
-function countSubtrings(str='', substring)
+module.exports=function countSubtrings(str='', substring)
 {
     let compteur=0;
     let tab = str.split(' ');
@@ -14,5 +14,3 @@ return compteur;
 
 }
 
-console.log(countSubtrings('Tony Tony Chopper!', 'Tony'));
-console.log(countSubtrings('gomu gomu no bazooka', 'gatling'));
